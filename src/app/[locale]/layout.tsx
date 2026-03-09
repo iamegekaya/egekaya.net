@@ -6,39 +6,63 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { siteConfig } from "@/config/site";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
-export const metadata: Metadata = {
-    title: {
-        template: '%s | Ege Kaya',
-        default: 'Ege Kaya',
-    },
-    description: "Cybersecurity Specialist & Photographer",
-    openGraph: {
-        title: 'Ege Kaya',
-        description: 'Cybersecurity Specialist & Photographer',
-        url: 'https://egekaya.net',
-        siteName: 'Ege Kaya',
-        images: [
-            {
-                url: 'https://egekaya.net/og-image.jpg', // Placeholder
-                width: 1200,
-                height: 630,
-            },
-        ],
-        locale: 'en_US',
-        type: 'website',
-    },
-    twitter: {
-        card: 'summary_large_image',
-        title: 'Ege Kaya',
-        description: 'Cybersecurity Specialist & Photographer',
-        creator: '@egekaya',
-    },
-    icons: {
-        icon: '/favicon.ico',
-    },
+const openGraphLocaleMap = {
+    en: 'en_US',
+    tr: 'tr_TR',
+} as const;
+
+function isSupportedLocale(locale: string): locale is keyof typeof siteConfig.description {
+    return locale in siteConfig.description;
+}
+
+export async function generateMetadata({
+    params,
+}: {
+    params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+    const { locale: requestedLocale } = await params;
+    const locale = isSupportedLocale(requestedLocale) ? requestedLocale : 'tr';
+    const description = siteConfig.description[locale];
+    const openGraphLocale = openGraphLocaleMap[locale];
+
+    return {
+        metadataBase: new URL(siteConfig.url),
+        title: {
+            template: `%s | ${siteConfig.name}`,
+            default: siteConfig.name,
+        },
+        description,
+        openGraph: {
+            title: siteConfig.name,
+            description,
+            siteName: siteConfig.name,
+            images: [
+                {
+                    url: '/pp.jpg',
+                    alt: siteConfig.name,
+                },
+            ],
+            locale: openGraphLocale,
+            alternateLocale: Object.values(openGraphLocaleMap).filter(
+                (alternateLocale) => alternateLocale !== openGraphLocale
+            ),
+            type: 'website',
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: siteConfig.name,
+            description,
+            creator: '@egekaya',
+            images: ['/pp.jpg'],
+        },
+        icons: {
+            icon: '/favicon.ico',
+        },
+    };
 };
 
 export default async function LocaleLayout({

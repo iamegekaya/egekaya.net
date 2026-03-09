@@ -140,44 +140,40 @@
     "title": "Privacy Policy",
     "content": [
       {
-        "h": "Data Controller",
-        "p": "I, Ege, as the data controller, aim to inform you, our users, about which personal data will be processed within the scope of this website, for what purposes, with whom and for what reasons the processed data may be shared, our data processing methods and legal grounds, and what your rights are regarding the processed data, through this privacy and personal data protection policy."
+        "h": "Introduction",
+        "p": "This policy describes the personal data that may be processed through the current implementation of this website. The site is primarily a content-focused personal website. It does not include user accounts, advertising technology, or analytics tooling in the current codebase."
       },
       {
-        "h": "Personal Data Collected",
-        "p": "Your personal data collected by this website includes: Device information, Email address, IP address, Name and surname, Phone number, Usage data."
+        "h": "Data Collected",
+        "p": "If you browse this website, limited technical request data may be processed by the server or delivery infrastructure, such as IP address, request headers, and basic request metadata required to deliver and protect the service. If you use the contact form, the submitted name, email address, and message are processed. The contact flow also processes basic anti-abuse signals used to reduce spam and misuse."
       },
       {
-        "h": "Services Used",
-        "p": "Infrastructure services: Cloudflare: Cloudflare is used for site security and performance optimization. It provides DDoS protection, SSL certificate and CDN services."
+        "h": "How Data Is Used",
+        "p": "The data processed through this website is used only for the operation of the site, delivery of requested content, handling contact form submissions, responding to messages, and protecting the service against abuse or excessive automated requests."
       },
       {
-        "h": "Purposes of Data Processing",
-        "p": "Your personal data is processed by this website for the purposes of providing appropriate services, fulfilling legal obligations, improving service quality, communication, security, and sharing information with legal authorities when necessary. Your personal data will not be used for purposes other than those listed."
+        "h": "Cookies and Similar Technologies",
+        "p": "The current codebase does not intentionally implement analytics cookies, advertising cookies, behavioral profiling cookies, or an on-site cookie preference panel. No optional cookie or local storage feature is currently implemented in the website code. If strictly necessary technical storage or similar mechanisms are applied by the browser, framework, or hosting/runtime environment as part of delivering the site, they are limited to basic operation and security."
       },
       {
         "h": "Data Transfer",
-        "p": "Your personal data collected by this website will not be shared with third parties without your explicit consent, except for legal obligations. However, it may be shared with our service providers, business partners, and legal authorities to the extent necessary for the provision of services and the fulfillment of legal obligations."
+        "p": "Contact form submissions are sent to the site owner's configured email inbox through the email delivery setup used by the site. Technical request data may also be processed by the hosting or network infrastructure required to serve the website. Aside from those operational needs and applicable legal obligations, this website is not designed to share visitor data for advertising or profiling purposes."
       },
       {
-        "h": "Use of Cookies",
-        "p": "This website uses cookies. Cookies are small, rich-text formats that allow certain information about users to be stored on users' terminal devices when they visit a website. Cookies can be stored on your device via your browser during your first visit to a website, and when you visit the same site again with the same device, your browser checks whether there is a cookie registered on your device for that site. If there is a record, it transmits the data within the record to the website you are visiting. This allows the website to identify your previous visit and determine the content to be delivered to you accordingly."
+        "h": "Storage",
+        "p": "This repository does not implement a separate user database, user accounts, or profile management for visitors. Contact form submissions may be retained in the site owner's email inbox for as long as reasonably necessary to review and respond to the message."
       },
       {
-        "h": "Your Legal Rights",
-        "p": "Your Rights Under the Personal Data Protection Law (KVKK): In accordance with Article 11 of the KVKK No. 6698, everyone has the right to apply to the data controller and make the following requests regarding themselves: To learn whether their personal data is being processed. To request information regarding the processing of their personal data if it has been processed. To learn the purpose of the processing of their personal data and whether it is being used in accordance with its purpose. To know the third parties to whom their personal data has been transferred, domestically or abroad. To request the correction of their personal data if it has been processed incompletely or incorrectly. To request the deletion or destruction of their personal data within the framework of the conditions stipulated in Article 7 of the KVKK. To request that the actions taken as a result of correction, deletion, and destruction requests be notified to the third parties to whom their personal data has been transferred. To object to a result that is detrimental to them arising from the analysis of processed data exclusively through automated systems. Right to claim compensation for damages incurred as a result of the unlawful processing of personal data."
-      },
-      {
-        "h": "Your Rights Under GDPR",
-        "p": "Under the GDPR (EU General Data Protection Regulation), you have the following rights: The right to access your personal data. The right to request the correction of your personal data. The right to request the deletion of your personal data (right to be forgotten). The right to restrict the processing of personal data. The right to portability of personal data. The right to object to the processing of personal data. Rights relating to automated decision-making and profiling. The right to be informed in the event of a personal data breach."
+        "h": "Your Rights",
+        "p": "Depending on the laws that apply to you, you may have rights regarding access to, correction of, or deletion of your personal data, as well as the right to object to or restrict certain processing. Requests will be reviewed in light of the actual technical scope of this website and any applicable legal obligations."
       },
       {
         "h": "Contact",
-        "p": "To exercise your rights regarding your personal data or to obtain more information about our Privacy Policy, you can contact us at iamegekaya@gmail.com."
+        "p": "For privacy-related questions about this website or requests concerning personal data submitted through the contact form, you can contact: iamegekaya@egekaya.net"
       },
       {
-        "h": "Consent and Effectiveness",
-        "p": "Sharing your personal data with our website is entirely your choice. If you continue to use our website, you will be deemed to have accepted this Privacy Policy. This policy entered into force on July 16, 2025, and will be updated as necessary."
+        "h": "Updates",
+        "p": "This policy reflects the current implementation of the website and may be updated if the site's behavior changes. Last updated: July 16, 2025"
       }
     ]
   },
@@ -186,47 +182,35 @@
     "content": [
       {
         "h": "Introduction",
-        "p": "The purpose of this text is to inform you about the processing of personal data obtained automatically through the placement of cookies on your device by the website you are visiting, including the types of cookies we use, the purposes for which they are used, and how you can manage them. Within the platform, we use mandatory cookies for the provision of services, as well as analytical cookies, behavioral cookies, social plugin cookies, and local storage cookies, all subject to user explicit consent."
+        "p": "This Cookie Policy describes the cookie-related behavior of the website as it is currently implemented. The current codebase does not intentionally include analytics, marketing, or preference-management cookies, and it does not include an on-site cookie consent or preference panel."
       },
       {
-        "h": "What are Cookies?",
-        "p": "Cookies are small, rich-text formats that allow certain information about users to be stored on users' terminal devices when they visit a website. Cookies can be stored on your device via your browser during your first visit to a website, and when you visit the same site again with the same device, your browser checks whether there is a cookie registered on your device for that site. If there is a record, it transmits the data within the record to the website you are visiting. In this way, the website identifies your previous visit and determines the content to be delivered to you accordingly."
+        "h": "Current Implementation",
+        "p": "Based on the current website implementation, no optional analytics, behavioral, advertising, or social-plugin cookies are intentionally set by the site code. The website is primarily rendered as content pages with a contact form and localized routes."
       },
       {
-        "h": "Why are Cookies Used?",
-        "p": "Cookies are used to make the website work more efficiently and to provide services more tailored to the personal needs of its users. The cookies we use perform functions such as collecting information, improving the functionality and performance of our website, improving user experience, and fulfilling legal obligations. In addition, thanks to the cookies we use: Your session information is protected and your security is ensured. Your on-site experience is improved and accelerated. Your preferences are remembered and personalized content is provided to you. Service quality is improved by analyzing site usage."
-      },
-      {
-        "h": "Analytical cookies",
-        "p": "Analytical cookies are cookies that allow statistical measurements to be made in order to analyze user behavior. These cookies are used to improve the performance of the website and the quality of the service provided."
-      },
-      {
-        "h": "Behavioral cookies",
-        "p": "Behavioral cookies are cookies used to monitor users' activities on the website, analyze and profile these activities, and thus provide users with a more personalized experience."
-      },
-      {
-        "h": "Social Plugin Cookies",
-        "p": "Social plugin cookies are cookies used to integrate social media platforms into websites. These cookies work through \"social plugin modules\" that allow social media users to share content they like or comments they make with their \"friends\"."
+        "h": "Strictly Necessary Technical Behavior",
+        "p": "Basic technical mechanisms may still be used by the browser, framework, or hosting/runtime environment when needed to deliver pages, handle requests, or protect the service. If such storage or cookie-like behavior occurs, it is limited to essential technical operation and security rather than profiling or marketing."
       },
       {
         "h": "Local Storage",
-        "p": "Local storage is a technology used to store data in internet browsers. This system is used to remember user preferences, store session information, and improve website performance. Unlike cookies, this data is not automatically sent to the server."
+        "p": "No local storage or similar browser-side preference storage is intentionally implemented in the current website code."
       },
       {
-        "h": "Mandatory Cookies",
-        "p": "Mandatory cookies are cookies necessary for the operation of a website. These cookies are necessarily used to fulfill a user-requested information collection service (such as logging in, filling out forms, remembering privacy preferences). If mandatory cookies, which are not for marketing purposes, are blocked, some parts of the website will not work, and the website will not be able to perform its intended function."
-      },
-      {
-        "h": "Cookie Management",
-        "p": "You can change your cookie preferences at any time through your browser settings. You can disable cookies entirely or allow specific types of cookies. Most browsers are set to accept cookies by default, but you can reject cookies or set your browser to warn you when a cookie is sent by changing your browser settings. For more information, you can contact us at iamegekaya@gmail.com."
+        "h": "Managing Cookies",
+        "p": "You can manage or block cookies through your browser settings. Because the site does not currently provide a cookie preference panel, browser controls are the primary way to manage cookie behavior on your device."
       },
       {
         "h": "Browser Settings",
-        "p": "Users can view the types of cookies used on our website and set their preferences for all cookies except Mandatory Cookies through the cookie management panel. You can use the following links to change the cookie settings of popular browsers: Google Chrome: chrome://settings/cookies Mozilla Firefox: about:preferences#privacy Safari: Preferences > Privacy Microsoft Edge: edge://settings/privacy Opera: opera://settings/privacy"
+        "p": "You can review your browser's help or privacy settings to manage cookies. Common examples include: Google Chrome: chrome://settings/cookies Mozilla Firefox: about:preferences#privacy Safari: Preferences > Privacy Microsoft Edge: edge://settings/privacy Opera: opera://settings/privacy"
+      },
+      {
+        "h": "Third-Party Services",
+        "p": "This website may contain links to external websites or services. If you follow those links, the third-party service may apply its own cookies or tracking technologies under its own policies. This Cookie Policy applies only to the behavior of this website as implemented in this repository."
       },
       {
         "h": "Updates",
-        "p": "This Cookie Policy will be updated as needed. Changes will take effect as soon as they are published. Last updated: July 16, 2025"
+        "p": "This Cookie Policy may be updated if the implementation of the website changes. Last updated: July 16, 2025"
       }
     ]
   },

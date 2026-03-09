@@ -1,24 +1,16 @@
 import { useTranslations } from 'next-intl';
 import { ContactForm } from '@/components/ContactForm';
 import { siteConfig } from '@/config/site';
-import { Mail, Linkedin, Twitter, Instagram } from 'lucide-react';
-
-// Simple X icon component since lucide might not have it or it's named differently in newer versions, 
-// but user asked to change Twitter icon to X icon. 
-// Lucide's Twitter icon is usually the bird. Let's use a custom SVG for X or just check if Lucide has X.
-// For safety/speed, I'll use a text X or SVG.
-const XIcon = ({ className }: { className?: string }) => (
-    <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
-        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
-    </svg>
-);
+import { Mail, Linkedin, Instagram } from 'lucide-react';
+import { XIcon } from '@/components/icons/XIcon';
 
 export default function ContactPage() {
     const t = useTranslations('ContactPage');
+    const navigationT = useTranslations('Navigation');
 
     return (
         <div className="container mx-auto px-4 py-16 max-w-4xl">
-            <h1 className="text-4xl font-bold text-white mb-12">{useTranslations('Navigation')('contact')}</h1>
+            <h1 className="text-4xl font-bold text-white mb-12">{navigationT('contact')}</h1>
 
             <div className="grid md:grid-cols-2 gap-12">
                 <div className="space-y-8">

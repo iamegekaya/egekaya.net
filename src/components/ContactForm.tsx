@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 export function ContactForm() {
     const t = useTranslations('ContactPage.form');
     const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+    const [submittedAt, setSubmittedAt] = useState(() => Date.now());
 
     async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
@@ -16,6 +17,8 @@ export function ContactForm() {
             name: (form.elements.namedItem('name') as HTMLInputElement).value,
             email: (form.elements.namedItem('email') as HTMLInputElement).value,
             message: (form.elements.namedItem('message') as HTMLTextAreaElement).value,
+            website: (form.elements.namedItem('website') as HTMLInputElement | null)?.value ?? '',
+            submittedAt,
         };
 
         try {
@@ -29,6 +32,7 @@ export function ContactForm() {
 
             setStatus('success');
             form.reset();
+            setSubmittedAt(Date.now());
         } catch (error) {
             console.error(error);
             setStatus('error');
@@ -44,6 +48,7 @@ export function ContactForm() {
                 <input
                     type="text"
                     id="name"
+                    name="name"
                     required
                     className="w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-white placeholder-zinc-500 focus:border-white focus:outline-none focus:ring-1 focus:ring-white"
                 />
@@ -55,6 +60,7 @@ export function ContactForm() {
                 <input
                     type="email"
                     id="email"
+                    name="email"
                     required
                     className="w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-white placeholder-zinc-500 focus:border-white focus:outline-none focus:ring-1 focus:ring-white"
                 />
@@ -65,9 +71,20 @@ export function ContactForm() {
                 </label>
                 <textarea
                     id="message"
+                    name="message"
                     required
                     rows={4}
                     className="w-full rounded-md border border-zinc-800 bg-zinc-900 px-3 py-2 text-white placeholder-zinc-500 focus:border-white focus:outline-none focus:ring-1 focus:ring-white"
+                />
+            </div>
+            <div aria-hidden="true" className="hidden">
+                <label htmlFor="website">Website</label>
+                <input
+                    type="text"
+                    id="website"
+                    name="website"
+                    tabIndex={-1}
+                    autoComplete="off"
                 />
             </div>
             <button

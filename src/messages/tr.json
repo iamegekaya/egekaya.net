@@ -141,47 +141,39 @@
         "content": [
             {
                 "h": "Giriş",
-                "p": "Bu İnternet sitesini kullanarak kişisel verilerinizin işlenmesini kabul etmiş olursunuz. Güvenliğiniz bizim için önemli. Bu sebeple, bizimle paylaşacağınız kişisel verileriniz hassasiyetle korunmaktadır."
+                "p": "Bu politika, bu internet sitesinin mevcut uygulamasında hangi kişisel verilerin işlenebileceğini açıklamaktadır. Site, ağırlıklı olarak içerik odaklı bir kişisel web sitesidir. Mevcut kod tabanında kullanıcı hesabı, reklam teknolojisi veya analitik araçlar bulunmamaktadır."
             },
             {
-                "h": "Veri Sorumlusu",
-                "p": "Ben, Ege, veri sorumlusu olarak, bu gizlilik ve kişisel verilerin korunması politikası ile ziyaret etmekte olduğunuz İnternet sitesi kapsamında hangi kişisel verilerinizin hangi amaçlarla işleneceği, işlenen verilerin kimlerle ve hangi sebeplerle paylaşılabileceği, veri işleme yöntemimiz ve hukuki sebepleri ile; işlenen verilerinize ilişkin haklarınızın neler olduğu hususunda siz kullanıcılarımızı aydınlatmayı amaçlıyorum."
-            },
-            {
-                "h": "Toplanan Kişisel Veriler",
-                "p": "Bu İnternet sitesi tarafından toplanan kişisel verileriniz:\n\nCihaz bilgileri\nE-posta adresi\nIP adresi\nAd ve soyad\nTelefon numarası\nKullanım verileri"
-            },
-            {
-                "h": "Kullanılan Servisler",
-                "p": "Altyapı servisleri\nCloudflare: Cloudflare, site güvenliği ve performans optimizasyonu için kullanılmaktadır. DDoS koruması, SSL sertifikası ve CDN hizmetleri sağlar."
+                "h": "İşlenen Veriler",
+                "p": "Bu internet sitesini ziyaret ettiğinizde, hizmetin sunulması ve korunması için IP adresi, istek başlıkları ve temel istek meta verileri gibi sınırlı teknik veriler sunucu veya dağıtım altyapısı tarafından işlenebilir. İletişim formunu kullanmanız halinde ad, e-posta adresi ve mesaj içeriği işlenir. İletişim akışı ayrıca spam ve kötüye kullanımı azaltmak için temel kötüye kullanım önleme sinyallerini işler."
             },
             {
                 "h": "Verilerin İşlenme Amaçları",
-                "p": "Kişisel verileriniz, bu İnternet sitesi tarafından amacına uygun hizmet sunulabilmesi, yasal yükümlülüklerin yerine getirilmesi, hizmet kalitesinin artırılması, iletişim, güvenlik ve gerektiğinde yasal merciler ile bilgi paylaşılabilmesi amaçları ile işlenmektedir. Kişisel verileriniz, bu sayılan amaçlar dışında kullanılmayacaktır."
+                "p": "Bu internet sitesi üzerinden işlenen veriler yalnızca sitenin çalıştırılması, talep edilen içeriğin sunulması, iletişim formu gönderimlerinin işlenmesi, mesajlara yanıt verilmesi ve hizmetin kötüye kullanım veya aşırı otomatik isteklerden korunması amaçlarıyla kullanılır."
+            },
+            {
+                "h": "Çerezler ve Benzeri Teknolojiler",
+                "p": "Mevcut kod tabanı; analitik çerezler, reklam çerezleri, davranışsal profilleme çerezleri veya site üzerinde bir çerez tercih paneli bilinçli olarak uygulamamaktadır. Web sitesi kodunda isteğe bağlı çerez veya local storage özelliği şu anda yer almamaktadır. Tarayıcı, framework veya barındırma/çalışma zamanı ortamı tarafından sitenin sunulmasının bir parçası olarak zorunlu teknik depolama ya da benzer mekanizmalar kullanılıyorsa, bunlar temel çalışma ve güvenlik ile sınırlıdır."
             },
             {
                 "h": "Verilerin Aktarılması",
-                "p": "Bu İnternet sitesi tarafından toplanan kişisel verileriniz, yasal zorunluluklar haricinde, açık rızanız olmadan üçüncü kişiler ile paylaşılmaz. Ancak hizmet sağlayıcılarımız, iş ortaklarımız ve yasal merciler ile, hizmetin sağlanması ve yasal yükümlülüklerin yerine getirilmesi amaçlarıyla gerekli olduğu ölçüde paylaşılabilir."
+                "p": "İletişim formu gönderimleri, sitede kullanılan e-posta gönderim yapısı üzerinden site sahibinin yapılandırılmış e-posta kutusuna iletilir. Teknik istek verileri de web sitesini sunmak için gerekli olan barındırma veya ağ altyapısı tarafından işlenebilir. Bu operasyonel ihtiyaçlar ve uygulanabilir yasal yükümlülükler dışında, bu site ziyaretçi verilerini reklam veya profilleme amacıyla paylaşmak üzere tasarlanmamıştır."
             },
             {
-                "h": "Çerez Kullanımı",
-                "p": "Bu İnternet sitesi çerez kullanmaktadır. Çerezler, bir İnternet sayfası ziyaret edildiğinde kullanıcılara ilişkin birtakım bilgilerin kullanıcıların terminal cihazlarında depolanmasına izin veren düşük boyutlu zengin metin biçimli text formatlarıdır. Çerezler, bir İnternet sitesini ilk ziyaretiniz sırasında tarayıcınız aracılığıyla cihazınıza depolanabilir ve aynı siteyi aynı cihazla tekrar ziyaret ettiğinizde, tarayıcınız cihazınızda site adına kayıtlı bir çerez olup olmadığını kontrol eder. Eğer kayıt var ise, kaydın içindeki veriyi ziyaret etmekte olduğunuz İnternet sitesine iletir. Bu sayede İnternet sitesi, sizin daha önceki ziyaretinizi tespit eder ve size iletilecek içeriği ona göre belirler."
+                "h": "Saklama",
+                "p": "Bu depo, ziyaretçiler için ayrı bir kullanıcı veri tabanı, kullanıcı hesabı sistemi veya profil yönetimi uygulamamaktadır. İletişim formu gönderimleri, mesajın incelenmesi ve yanıtlanması için makul olarak gerekli olduğu süre boyunca site sahibinin e-posta kutusunda saklanabilir."
             },
             {
-                "h": "Yasal Haklarınız - KVKK Kapsamında Haklarınız",
-                "p": "6698 sayılı KVKK madde 11 uyarınca herkes, veri sorumlusuna başvurarak kendisiyle ilgili aşağıda yer alan taleplerde bulunma hakkına sahiptir:\n\nKişisel verilerinin işlenip işlenmediğini öğrenme.\nKişisel verileri işlenmişse buna ilişkin bilgi talep etme.\nKişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme.\nYurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme.\nKişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme.\nKVKK madde 7 ile öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme.\nDüzeltme, silme ve yok edilme talepleri neticesinde yapılan işlemlerin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme.\nİşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme.\nKişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme."
-            },
-            {
-                "h": "GDPR Kapsamında Haklarınız",
-                "p": "GDPR (AB Genel Veri Koruma Tüzüğü) kapsamında aşağıda yer alan haklara sahipsiniz:\n\nKişisel verilerinize erişim hakkı.\nKişisel verilerinizin düzeltilmesini isteme hakkı.\nKişisel verilerinizin silinmesini isteme hakkı (unutulma hakkı).\nKişisel veri işlemenin sınırlandırılmasını isteme hakkı.\nKişisel veri taşınabilirliği hakkı.\nKişisel verilerin işlenmesine itiraz hakkı.\nOtomatik karar verme ve profillemeye ilişkin haklar.\nKişisel veri ihlali durumunda bilgilendirilme hakkı."
+                "h": "Haklarınız",
+                "p": "Size uygulanan mevzuata bağlı olarak kişisel verilerinize erişim, verilerin düzeltilmesi veya silinmesi ile belirli işleme faaliyetlerine itiraz etme ya da bunların sınırlandırılmasını talep etme haklarına sahip olabilirsiniz. Talepler, bu internet sitesinin gerçek teknik kapsamı ve uygulanabilir yasal yükümlülükler çerçevesinde değerlendirilir."
             },
             {
                 "h": "İletişim",
-                "p": "Kişisel verilerinizle ilgili haklarınızı kullanmak veya Gizlilik Politika’mız hakkında daha fazla bilgi almak için iamegekaya@gmail.com adresinden bizimle iletişime geçebilirsiniz."
+                "p": "Bu internet sitesiyle ilgili gizlilik soruları veya iletişim formu üzerinden gönderilen kişisel verilere ilişkin talepler için şu adres üzerinden iletişime geçebilirsiniz: iamegekaya@egekaya.net"
             },
             {
-                "h": "Onay ve Yürürlük",
-                "p": "İnternet sitemiz ile kişisel verilerinizi paylaşmak, tamamen sizin tercihinizdir. İnternet sitemizi kullanmaya devam ettiğiniz takdirde, bu Gizlilik Politikası’nı kabul ettiğiniz varsayılacaktır. Bu politika, 16 Temmuz 2025 tarihinde yürürlüğe girmiş olup, gerektiğinde güncellenir."
+                "h": "Güncellemeler",
+                "p": "Bu politika, web sitesinin mevcut uygulamasını yansıtmaktadır ve sitenin davranışı değişirse güncellenebilir. Son güncelleme: 16 Temmuz 2025"
             }
         ]
     },
@@ -190,35 +182,35 @@
         "content": [
             {
                 "h": "Giriş",
-                "p": "Bu metnin amacı, ziyaret etmekte olduğunuz İnternet sitesi tarafından kullanılan çerezlerin cihazınıza yerleştirilmesi aracılığıyla otomatik yolla elde edilen kişisel verilerin işlenmesine ilişkin olarak, hangi amaçlarla hangi tür çerezleri kullandığımız ve bu çerezleri nasıl yönetebileceğiniz konularında sizlere bilgi vermektir. Platform içerisinde, hizmetlerin yerine getirilebilmesi için kullandığımız zorunlu çerezler ile bunlar haricinde kullanıcıların açık rızalarına bağlı Analitik çerezler, Davranışsal çerezler, Sosyal eklenti çerezleri, Yerel depolama türlerinde çerezler yer almaktadır."
+                "p": "Bu Çerez Politikası, web sitesinin mevcut uygulamasındaki çerezle ilgili davranışı açıklamaktadır. Mevcut kod tabanı; analitik, pazarlama veya tercih yönetimi çerezlerini bilinçli olarak içermemektedir ve site üzerinde bir çerez onay ya da tercih paneli bulunmamaktadır."
             },
             {
-                "h": "Çerez Nedir?",
-                "p": "Çerezler, bir İnternet sayfası ziyaret edildiğinde kullanıcılara ilişkin birtakım bilgilerin kullanıcıların terminal cihazlarında depolanmasına izin veren düşük boyutlu zengin metin biçimli text formatlarıdır. Çerezler, bir İnternet sitesini ilk ziyaretiniz sırasında tarayıcınız aracılığıyla cihazınıza depolanabilir ve aynı siteyi aynı cihazla tekrar ziyaret ettiğinizde, tarayıcınız cihazınızda site adına kayıtlı bir çerez olup olmadığını kontrol eder. Eğer kayıt var ise, kaydın içindeki veriyi ziyaret etmekte olduğunuz İnternet sitesine iletir. Bu sayede İnternet sitesi, sizin daha önceki ziyaretinizi tespit eder ve size iletilecek içeriği ona göre belirler."
+                "h": "Mevcut Uygulama",
+                "p": "Mevcut web sitesi uygulamasına göre, site kodu tarafından isteğe bağlı analitik, davranışsal, reklam veya sosyal eklenti çerezleri bilinçli olarak ayarlanmamaktadır. Web sitesi ağırlıklı olarak içerik sayfaları, bir iletişim formu ve yerelleştirilmiş rotalardan oluşmaktadır."
             },
             {
-                "h": "Çerezler Neden Kullanılır?",
-                "p": "Çerezler, İnternet sitesinin daha verimli çalışması ve kullanıcılarının kişisel ihtiyaçlarına daha uygun hizmet sunulması amaçlarıyla kullanılmaktadır. Kullanmakta olduğumuz çerezler, bilgilerin toplanması, İnternet sitemizin işlevselliğini ve performansını artırılması, kullanıcı deneyiminin iyileştirilmesi ve yasal yükümlülüklerin yerine getirilmesi gibi işlevleri yerine getirmektedir. Bunların yanı sıra, kullanmakta olduğumuz çerezler sayesinde:\n\nOturum bilgileriniz korunur ve güvenliğiniz sağlanır.\nSite içi deneyiminiz iyileştirilir ve hızlandırılır.\nTercihleriniz hatırlanarak size özel içerikler sunulur.\nSite kullanımına ilişkin analiz yapılarak hizmet kalitesi artırılır."
+                "h": "Kesinlikle Gerekli Teknik Davranış",
+                "p": "Sayfaların sunulması, isteklerin işlenmesi veya hizmetin korunması için tarayıcı, framework veya barındırma/çalışma zamanı ortamı tarafından temel teknik mekanizmalar kullanılabilir. Böyle bir depolama veya çerez benzeri davranış söz konusuysa, bu durum profilleme veya pazarlama amacıyla değil, temel teknik çalışma ve güvenlik amacıyla sınırlıdır."
             },
             {
-                "h": "Kullanılan Çerez Türleri ve Kullanım Amaçları",
-                "p": "Analitik çerezler\nAnalitik çerezler, kullanıcıların davranışlarının analiz edilebilmesi amacıyla istatistiki ölçümler yapılmasına olanak tanıyan çerezlerdir. Bu çerezler, İnternet sitesinin performansının ve sunulan hizmetin kalitesinin artırılması amaçlarıyla kullanılmaktadır.\n\nDavranışsal çerezler\nDavranışsal çerezler, kullanıcıların İnternet sitesindeki faaliyetlerinin izlenmesi, bu faaliyetlerin analiz edilerek profillenmesi ve böylece kullanıcılara daha kişiselleştirilmiş bir deneyim sunulması amaçlarıyla kullanılan çerezlerdir.\n\nSosyal eklenti çerezleri\nSosyal eklenti çerezleri, sosyal medya platformlarının, İnternet sitelerine entegre edilebilmesi amacıyla kullanılan çerezlerdir. Bu çerezler, sosyal medya kullanıcılarının, beğendikleri içerikleri veya yaptıkları yorumları, “arkadaşlarıyla” paylaşmalarına izin veren “sosyal eklenti modülleri” vasıtasıyla çalışmaktadır.\n\nYerel depolama\nYerel depolama, İnternet tarayıcılarında veri saklamak için kullanılan bir teknolojidir. Bu sistem, kullanıcıların tercihlerini hatırlamak, oturum bilgilerini saklamak ve İnternet sitesinin performansını artırmak amaçlarıyla kullanılmaktadır. Çerezlerden farklı olarak, bu veriler otomatik olarak sunucuya gönderilmez."
-            },
-            {
-                "h": "Zorunlu Çerezler",
-                "p": "Zorunlu çerezler, bir İnternet sitesinin çalışması için gerekli olan çerezlerdir. Bu çerezler, kullanıcının talep etmiş olduğu bir bilgi toplama hizmetinin (log-in olma, form doldurma, gizlilik tercihlerinin hatırlanması gibi) yerine getirilebilmesi için zorunlu olarak kullanılmaktadırlar. Pazarlama amacı taşımayan zorunlu çerezlerin engellenmesi halinde, İnternet sitesinin bazı bölümleri çalışmayacağından, İnternet sitesi kendisinden beklenen fonksiyonu yerine getiremeyecektir."
+                "h": "Yerel Depolama",
+                "p": "Mevcut web sitesi kodunda local storage veya benzeri tarayıcı taraflı tercih depolaması bilinçli olarak uygulanmamaktadır."
             },
             {
                 "h": "Çerez Yönetimi",
-                "p": "Tarayıcı ayarlarınızdan çerez tercihlerinizi istediğiniz zaman değiştirebilirsiniz. Çerezleri tamamen devre dışı bırakabilir veya belirli türdeki çerezlere izin verebilirsiniz. Çoğu tarayıcı, varsayılan olarak çerezleri kabul edecek şekilde ayarlanmıştır, ancak tarayıcınızın ayarlarını değiştirerek çerezleri reddedebilir veya çerez gönderildiğinde uyarı verecek şekilde ayarlayabilirsiniz. Daha fazla bilgi için iamegekaya@gmail.com adresinden bize ulaşabilirsiniz."
+                "p": "Çerezleri tarayıcı ayarlarınız üzerinden yönetebilir veya engelleyebilirsiniz. Site şu anda bir çerez tercih paneli sunmadığı için, cihazınızdaki çerez davranışını yönetmenin temel yolu tarayıcı kontrolleridir."
             },
             {
                 "h": "Tarayıcı Ayarları",
-                "p": "Kullanıcılar çerez yönetim paneli üzerinden, İnternet sitemizde kullanılan çerez çeşitlerini görebilmekte ve Zorunlu Çerezler dışında kalan tüm çerezler için tercihlerini belirleyebilmektedirler. Popüler tarayıcıların çerez ayarlarını değiştirmek için aşağıdaki bağlantıları kullanabilirsiniz:\n\nGoogle Chrome: chrome://settings/cookies\nMozilla Firefox: about:preferences#privacy\nSafari: Tercihler > Gizlilik\nMicrosoft Edge: edge://settings/privacy\nOpera: opera://settings/privacy"
+                "p": "Çerezleri yönetmek için tarayıcınızın yardım veya gizlilik ayarlarını inceleyebilirsiniz. Yaygın örnekler şunlardır:\n\nGoogle Chrome: chrome://settings/cookies\nMozilla Firefox: about:preferences#privacy\nSafari: Tercihler > Gizlilik\nMicrosoft Edge: edge://settings/privacy\nOpera: opera://settings/privacy"
+            },
+            {
+                "h": "Üçüncü Taraf Servisler",
+                "p": "Bu web sitesi harici web sitelerine veya servislere bağlantılar içerebilir. Bu bağlantıları takip etmeniz halinde, ilgili üçüncü taraf servis kendi politikaları kapsamında kendi çerezlerini veya takip teknolojilerini uygulayabilir. Bu Çerez Politikası yalnızca bu depoda uygulandığı şekliyle bu web sitesinin davranışı için geçerlidir."
             },
             {
                 "h": "Güncellemeler",
-                "p": "Bu Çerez Politikası, gerektiğinde güncellenir. Değişiklikler yayınlandığı anda yürürlüğe girer.\n\nSon güncelleme tarihi: 16 Temmuz 2025"
+                "p": "Bu Çerez Politikası, web sitesinin uygulaması değişirse güncellenebilir. Son güncelleme: 16 Temmuz 2025"
             }
         ]
     },

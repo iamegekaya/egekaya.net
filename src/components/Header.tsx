@@ -1,12 +1,10 @@
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
-import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { MobileNav } from './MobileNav';
 
 export function Header({ locale }: { locale: string }) {
-    const t = useTranslations('Navigation');
     const navItems = siteConfig.nav[locale as 'tr' | 'en'];
 
     return (
