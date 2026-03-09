@@ -3,8 +3,10 @@ import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
 import { Linkedin, Instagram } from 'lucide-react';
 import { XIcon } from '@/components/icons/XIcon';
+import type { ComponentProps } from 'react';
 
 const siteHost = new URL(siteConfig.url).hostname;
+type LinkHref = ComponentProps<typeof Link>['href'];
 
 export function Footer({ locale }: { locale: string }) {
     const t = useTranslations('Footer');
@@ -39,7 +41,7 @@ export function Footer({ locale }: { locale: string }) {
                         {footerLinks.map((link) => (
                             <Link
                                 key={link.href}
-                                href={link.href as any}
+                                href={link.href as LinkHref}
                                 className="text-sm text-zinc-400 transition-colors hover:text-white"
                             >
                                 {link.name}

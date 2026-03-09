@@ -1,5 +1,6 @@
 'use client';
 
+import type { ComponentProps } from 'react';
 import { useState } from 'react';
 import { Link } from '@/i18n/routing';
 import { Menu, X } from 'lucide-react';
@@ -9,6 +10,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 interface MobileNavProps {
     navItems: { name: string; href: string }[];
 }
+
+type LinkHref = ComponentProps<typeof Link>['href'];
 
 export function MobileNav({ navItems }: MobileNavProps) {
     const [isOpen, setIsOpen] = useState(false);
@@ -37,7 +40,7 @@ export function MobileNav({ navItems }: MobileNavProps) {
                             {navItems.map((item) => (
                                 <Link
                                     key={item.href}
-                                    href={item.href as any}
+                                    href={item.href as LinkHref}
                                     onClick={() => setIsOpen(false)}
                                     className="text-lg font-medium text-zinc-400 transition-colors hover:text-white"
                                 >

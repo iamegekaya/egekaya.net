@@ -1,7 +1,14 @@
 import { useTranslations } from 'next-intl';
 
+type TechItem = {
+    title: string;
+    desc?: string;
+    list?: string[];
+};
+
 export default function CyberPage() {
     const t = useTranslations('CyberPage');
+    const techItems = t.raw('techItems') as TechItem[];
 
     return (
         <div className="container mx-auto px-4 py-16 max-w-4xl space-y-16 text-zinc-300">
@@ -49,7 +56,7 @@ export default function CyberPage() {
                 </div>
 
                 <div className="grid gap-8">
-                    {t.raw('techItems').map((item: any, i: number) => (
+                    {techItems.map((item, i: number) => (
                         <div key={i} className="space-y-4 p-6 rounded-xl bg-zinc-900/50 border border-white/5">
                             <h3 className="text-xl font-bold text-white">{item.title}</h3>
                             {item.desc && <p className="text-zinc-400 leading-relaxed">{item.desc}</p>}

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
@@ -7,8 +6,6 @@ import { notFound } from 'next/navigation';
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { siteConfig } from "@/config/site";
-
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 const openGraphLocaleMap = {
     en: 'en_US',
@@ -85,7 +82,7 @@ export default async function LocaleLayout({
 
     return (
         <html lang={locale} className="dark">
-            <body className={`${inter.variable} min-h-screen bg-black text-zinc-100 antialiased font-sans selection:bg-white/20`}>
+            <body className="min-h-screen bg-black text-zinc-100 antialiased font-sans selection:bg-white/20">
                 <NextIntlClientProvider messages={messages}>
                     <div className="flex min-h-screen flex-col">
                         <Header locale={locale} />
