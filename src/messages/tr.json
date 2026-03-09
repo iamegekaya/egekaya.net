@@ -1,0 +1,270 @@
+{
+    "HomePage": {
+        "aiTitle": "Yapay zekaya beni sormak istiyorsan:",
+        "aiLink": "<link>ai.egekaya.net</link> adresine uğrayabilirsin!",
+        "whoAmI": "Ben Kimim?",
+        "bio": "Kısaca anlatmak gerekirse, güvenliği ciddiye alan ama detayları eğlenceli bulan biriyim.",
+        "cvLink": "Özgeçmişimi İncele",
+        "checkMenu": "Neler yaptığımı merak ediyorsan yukarıdaki menülerden göz atabilirsin, eğer mobildeysen sağ üstteki 3 çizgiden menülere göz atabilirsin."
+    },
+    "Navigation": {
+        "about": "Hakkımda",
+        "photography": "Fotoğrafçılık",
+        "cybersecurity": "Siber Güvenlik",
+        "contact": "İletişim"
+    },
+    "Footer": {
+        "slogan": "Kodlarla korurum, objektifle anlatırım.",
+        "rights": "Tüm hakları saklıdır."
+    },
+    "Common": {
+        "readMore": "Devamını Oku",
+        "back": "Geri",
+        "viewDetails": "Detayları İncele"
+    },
+    "ContactPage": {
+        "getInTouch": "İletişime Geçin",
+        "reachOut": "İş birliği teklifleri için veya sadece merhaba demek için çekinmeden iletişime geçebilirsiniz.",
+        "socials": "Sosyal",
+        "form": {
+            "name": "İsim",
+            "email": "E-posta",
+            "message": "Mesajınız",
+            "send": "Gönder",
+            "sending": "Gönderiliyor...",
+            "sent": "Gönderildi!"
+        }
+    },
+    "AboutPage": {
+        "title": "Hakkımda",
+        "intro": "Merhaba! Ben Ege, 22 yaşındayım. 11 Temmuz 2003’te Kırklareli’nin Lüleburgaz ilçesinde doğdum. Sokakta top oynayarak, kart ve taso çarpıştırarak büyüyen son nesildenim. İlk bilgisayarımla 2011 yılında tanıştım; o gün bugündür teknoloji hayatımın ayrılmaz bir parçası oldu. Üniversiteyle birlikte teknolojiye olan ilgim daha da derinleşti. Sırasıyla;",
+        "education": [
+            "Lüleburgaz İlkokulu (2008-2013)",
+            "Lüleburgaz Ortaokulu (2013-2017)",
+            "Lüleburgaz Anadolu Lisesi (2017-2019)",
+            "Lüleburgaz Bahçeşehir Anadolu Lisesi (2019-2021)",
+            "Yeditepe Üniversitesi Hazırlık Okulu(2021-2022)",
+            "Yeditepe Üniversitesi (2022-hala devam etmekteyim.)"
+        ],
+        "educationSuffix": "okudum.",
+        "hobbies": "Boş zamanlarımda fotoğraf çekmeyi, çektiğim fotoğrafları Lightroom’da düzenlemeyi, müzik dinlemeyi ve oyun oynamayı severim. Koyu bir Formula 1 ve Fenerbahçe hayranıyım. Ayrıca şehirleri keşfetmeyi, müze ve ören yeri gibi kültürel alanları gezmeyi de çok seviyorum.",
+        "summary": "Kısacası teknolojiyle uğraşmayı, bir şeyler üretmeyi ve her gün yeni bir şey öğrenmeyi seviyorum."
+    },
+    "PhotographyPage": {
+        "title": "Fotoğrafçılık",
+        "intro": "Evet hakkımda kısmını okuduysan artık kim olduğumu biliyorsun. Eğer okumadıysan <link>buradan</link> okuyup geri dönebilirsin. Artık sana fotoğrafçılık ile ilgili hikayemi anlatabilirim.",
+        "meaningTitle": "Fotoğrafçılık benim için ne ifade ediyor ?",
+        "meaningContent": "Fotoğrafçılık birazcık benim için ekran başından kaçmak gibi bir şey. Genellikle günüm bilgisayar ve ekran başında geçiyor. Bu yüzden elime kameramı alıp dışarı çıkmak, dolaşmak ve bir şeyler fotoğraflamak bana gerçekten iyi geliyor. Gözümle gördüğüm detayları bir kareye dönüştürmek, anı yakalamak hoşuma gidiyor.",
+        "startTitle": "Ne zaman başladım ?",
+        "startContent": "İlk fotoğraf makinem olan Canon Rebel T7 ve 18-55mm lensi 8 Kasım 2023 tarihinde aldım. Bu makine ile fotoğrafçılığın temellerini öğrendikten sonra yeni makinemi alana kadar 18-55mm dışında 75-300mm ve 50mm lensler de kullanıp tecrübe kazandım. Ardından sahip olduğum her şeyi satıp Sony A7M2 ve 28-75mm lens aldım. 2.5 ay kadar bu makineyi kullandıktan sonra Sony A7M2’den sonra sahip olduğum makine olan Fujifilm XM-5’i almaya karar verdim. Şuan elimde olan ekipmanların listesini aşağıya linkleri ile birlikte ekliyorum üzerlerine tıklayıp detaylarını öğrenebilirsiniz:",
+        "equipmentTitle": "Ekipmanlarım",
+        "equipment": [
+            {
+                "name": "Fujifilm XM-5 Body",
+                "link": "https://www.fujifilm-x.com/tr-tr/products/cameras/x-m5/"
+            },
+            {
+                "name": "Fujinon XC 15-45mm f/3.5-5.6 OIS PZ Lens",
+                "link": "https://www.fujifilm-x.com/tr-tr/products/lenses/xc15-45mmf35-56-ois-pz/"
+            }
+        ],
+        "galleryTitle": "Fotoğraf Galerisi"
+    },
+    "CyberPage": {
+        "title": "Siber Güvenlik",
+        "introTitle": "Merhaba, ben Ege.",
+        "introContent": "Siber güvenlik benim için sadece bir ilgi alanı değil, disiplinli bir öğrenme ve mimari tasarım süreci. Sistemleri derinlemesine anlamak, zafiyetleri tespit etmek ve \"Sıfır Güven\" (Zero Trust) prensibine dayalı yapılar inşa etmek üzerine odaklanıyorum.",
+        "osTitle": "İşletim Sistemi Yetkinlikleri",
+        "osIntro": "Farklı sistem mimarilerini ve davranışlarını analiz edebilmek için geniş bir yelpazede işletim sistemi tecrübesi edindim.",
+        "osCurrentTitle": "Aktif Olarak Kullandığım Sistemler:",
+        "osCurrent": [
+            "Linux: Ubuntu (Sunucu ve İstemci Yönetimi)",
+            "macOS: Geliştirme ve Analiz Ortamı",
+            "Windows: 11 Pro (Kurumsal Yapı Simülasyonları)"
+        ],
+        "osPastTitle": "Deneyimlediklerim:",
+        "osPast": [
+            "Güvenlik Odaklı: Kali Linux, Parrot OS",
+            "Sunucu & Masaüstü: CentOS, Fedora, Linux Mint, Windows 10 / 7 / Vista"
+        ],
+        "techTitle": "Teknik Altyapı ve Mimari Yaklaşımım",
+        "techIntro": "Standart kurulumların ötesinde, performans ve güvenliği dengeleyen Hibrit Bir Mimari yönetiyorum.",
+        "techItems": [
+            {
+                "title": "1. Hibrit Sunucu Yönetimi (Docker & Native)",
+                "desc": "Tüm servisleri tek bir yapıya hapsetmek yerine, ihtiyaca göre optimize edilmiş bir dağılım kullanıyorum:",
+                "list": [
+                    "Mikro-Servisler: Veri tabanı, otomasyon ve medya servislerini Docker üzerinde izole konteynerlerde çalıştırıyorum.",
+                    "Web Uygulamaları: Performansın kritik olduğu cv.egekaya.net ve egekaya.net gibi projelerimi, Next.js altyapısıyla native ortamda barındırıyorum."
+                ]
+            },
+            {
+                "title": "2. Cloudflare Destekli Edge Güvenliği ve Özel Loglama",
+                "desc": "Sitelerimin DNS konfigürasyonlarını (A, CNAME, MX, TXT) ve e-posta sunucu güvenlik ayarlarını (SPF/DMARC) manuel olarak yönetiyorum.",
+                "list": [
+                    "Cloudflare Tunnels: İç ağımı dış dünyaya açarken port açma riskine girmeden, güvenli tünelleme protokolleri kullanıyorum.",
+                    "Özel HTTP Trafik Analizi (Custom Logging): Hazır loglama araçlarıyla yetinmeyip, Cloudflare Workers kullanarak kendi izleme sistemimi geliştirdim.",
+                    "Nasıl Çalışır? Sitelerime gelen tüm istekler henüz \"Edge\" noktasındayken (istemciye yanıt dönmeden) yakalanır.",
+                    "İşleme: Yakalanan veriler (IP, Method, Path, Timestamp) Webhook aracılığıyla sunucuma iletilir ve yerel olarak arşivlenir. Bu sayede tüm trafiği merkezi bir noktadan izleyebiliyorum."
+                ]
+            },
+            {
+                "title": "3. SecOps ve Otomasyon (n8n & AI)",
+                "desc": "Güvenlik süreçlerini manuel operasyonlardan çıkarıp, Olay Güdümlü (Event-Driven) otomasyonlara dönüştürdüm.",
+                "list": [
+                    "Sürekli Keşif ve Tarama: Döngü her gün otomatik olarak Nmap ile başlar; sistem uçtan uca taranarak açık portlar ve servisler haritalandırılır.",
+                    "Otomatik Zafiyet Analizi: Nmap sonrası tetiklenen Nuclei ve OWASP ZAP, tespit edilen servisler üzerinde derinlemesine zafiyet taraması yapar.",
+                    "AI Destekli Raporlama: Tüm sonuçlar disk üzerinden okunur, yapay zeka ajanları tarafından analiz edilir ve kritik bulgular bana anlık bildirim (Telegram/Email) olarak iletilir."
+                ]
+            },
+            {
+                "title": "4. Ağ Güvenliği ve Erişim",
+                "list": [
+                    "Mesh VPN: Sunucularıma ve servislerime erişim için Tailscale kullanıyorum. Bu sayede internetin olduğu her yerden, sanki yerel ağdaymışım gibi şifreli bir şekilde sistemlerime ulaşabiliyorum.",
+                    "DNS Filtreleme: Pi-hole ile ağ genelinde reklam ve izleyici (tracker) trafiğini DNS seviyesinde engelliyorum."
+                ]
+            }
+        ],
+        "experienceTitle": "Deneyimler",
+        "experienceList": [
+            {
+                "company": "Aktif Yatırım Bankası A.Ş",
+                "role": "Bilgi Teknolojileri Güvenlik Stajyeri",
+                "date": "2 Temmuz 2025 – 27 Ağustos 2025"
+            }
+        ],
+        "experienceSummary": "Şu an sistem yönetimi, web teknolojileri ve güvenlik otomasyonları üzerinde aktif projeler geliştiriyor, Blue Team (Savunma) tarafında yetkinliklerimi artırıyorum.",
+        "philosophy": "\"Güvenlik bir ürün değil, bir süreçtir. Kendi yazdığım loglama sistemlerinden, kurduğum ağ topolojisine kadar her adımda bu süreci iyileştirmeyi hedefliyorum.\""
+    },
+    "PrivacyPolicy": {
+        "title": "Gizlilik Politikası",
+        "content": [
+            {
+                "h": "Giriş",
+                "p": "Bu İnternet sitesini kullanarak kişisel verilerinizin işlenmesini kabul etmiş olursunuz. Güvenliğiniz bizim için önemli. Bu sebeple, bizimle paylaşacağınız kişisel verileriniz hassasiyetle korunmaktadır."
+            },
+            {
+                "h": "Veri Sorumlusu",
+                "p": "Ben, Ege, veri sorumlusu olarak, bu gizlilik ve kişisel verilerin korunması politikası ile ziyaret etmekte olduğunuz İnternet sitesi kapsamında hangi kişisel verilerinizin hangi amaçlarla işleneceği, işlenen verilerin kimlerle ve hangi sebeplerle paylaşılabileceği, veri işleme yöntemimiz ve hukuki sebepleri ile; işlenen verilerinize ilişkin haklarınızın neler olduğu hususunda siz kullanıcılarımızı aydınlatmayı amaçlıyorum."
+            },
+            {
+                "h": "Toplanan Kişisel Veriler",
+                "p": "Bu İnternet sitesi tarafından toplanan kişisel verileriniz:\n\nCihaz bilgileri\nE-posta adresi\nIP adresi\nAd ve soyad\nTelefon numarası\nKullanım verileri"
+            },
+            {
+                "h": "Kullanılan Servisler",
+                "p": "Altyapı servisleri\nCloudflare: Cloudflare, site güvenliği ve performans optimizasyonu için kullanılmaktadır. DDoS koruması, SSL sertifikası ve CDN hizmetleri sağlar."
+            },
+            {
+                "h": "Verilerin İşlenme Amaçları",
+                "p": "Kişisel verileriniz, bu İnternet sitesi tarafından amacına uygun hizmet sunulabilmesi, yasal yükümlülüklerin yerine getirilmesi, hizmet kalitesinin artırılması, iletişim, güvenlik ve gerektiğinde yasal merciler ile bilgi paylaşılabilmesi amaçları ile işlenmektedir. Kişisel verileriniz, bu sayılan amaçlar dışında kullanılmayacaktır."
+            },
+            {
+                "h": "Verilerin Aktarılması",
+                "p": "Bu İnternet sitesi tarafından toplanan kişisel verileriniz, yasal zorunluluklar haricinde, açık rızanız olmadan üçüncü kişiler ile paylaşılmaz. Ancak hizmet sağlayıcılarımız, iş ortaklarımız ve yasal merciler ile, hizmetin sağlanması ve yasal yükümlülüklerin yerine getirilmesi amaçlarıyla gerekli olduğu ölçüde paylaşılabilir."
+            },
+            {
+                "h": "Çerez Kullanımı",
+                "p": "Bu İnternet sitesi çerez kullanmaktadır. Çerezler, bir İnternet sayfası ziyaret edildiğinde kullanıcılara ilişkin birtakım bilgilerin kullanıcıların terminal cihazlarında depolanmasına izin veren düşük boyutlu zengin metin biçimli text formatlarıdır. Çerezler, bir İnternet sitesini ilk ziyaretiniz sırasında tarayıcınız aracılığıyla cihazınıza depolanabilir ve aynı siteyi aynı cihazla tekrar ziyaret ettiğinizde, tarayıcınız cihazınızda site adına kayıtlı bir çerez olup olmadığını kontrol eder. Eğer kayıt var ise, kaydın içindeki veriyi ziyaret etmekte olduğunuz İnternet sitesine iletir. Bu sayede İnternet sitesi, sizin daha önceki ziyaretinizi tespit eder ve size iletilecek içeriği ona göre belirler."
+            },
+            {
+                "h": "Yasal Haklarınız - KVKK Kapsamında Haklarınız",
+                "p": "6698 sayılı KVKK madde 11 uyarınca herkes, veri sorumlusuna başvurarak kendisiyle ilgili aşağıda yer alan taleplerde bulunma hakkına sahiptir:\n\nKişisel verilerinin işlenip işlenmediğini öğrenme.\nKişisel verileri işlenmişse buna ilişkin bilgi talep etme.\nKişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme.\nYurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme.\nKişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme.\nKVKK madde 7 ile öngörülen şartlar çerçevesinde kişisel verilerin silinmesini veya yok edilmesini isteme.\nDüzeltme, silme ve yok edilme talepleri neticesinde yapılan işlemlerin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme.\nİşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme.\nKişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme."
+            },
+            {
+                "h": "GDPR Kapsamında Haklarınız",
+                "p": "GDPR (AB Genel Veri Koruma Tüzüğü) kapsamında aşağıda yer alan haklara sahipsiniz:\n\nKişisel verilerinize erişim hakkı.\nKişisel verilerinizin düzeltilmesini isteme hakkı.\nKişisel verilerinizin silinmesini isteme hakkı (unutulma hakkı).\nKişisel veri işlemenin sınırlandırılmasını isteme hakkı.\nKişisel veri taşınabilirliği hakkı.\nKişisel verilerin işlenmesine itiraz hakkı.\nOtomatik karar verme ve profillemeye ilişkin haklar.\nKişisel veri ihlali durumunda bilgilendirilme hakkı."
+            },
+            {
+                "h": "İletişim",
+                "p": "Kişisel verilerinizle ilgili haklarınızı kullanmak veya Gizlilik Politika’mız hakkında daha fazla bilgi almak için iamegekaya@gmail.com adresinden bizimle iletişime geçebilirsiniz."
+            },
+            {
+                "h": "Onay ve Yürürlük",
+                "p": "İnternet sitemiz ile kişisel verilerinizi paylaşmak, tamamen sizin tercihinizdir. İnternet sitemizi kullanmaya devam ettiğiniz takdirde, bu Gizlilik Politikası’nı kabul ettiğiniz varsayılacaktır. Bu politika, 16 Temmuz 2025 tarihinde yürürlüğe girmiş olup, gerektiğinde güncellenir."
+            }
+        ]
+    },
+    "CookiePolicy": {
+        "title": "Çerez Politikası",
+        "content": [
+            {
+                "h": "Giriş",
+                "p": "Bu metnin amacı, ziyaret etmekte olduğunuz İnternet sitesi tarafından kullanılan çerezlerin cihazınıza yerleştirilmesi aracılığıyla otomatik yolla elde edilen kişisel verilerin işlenmesine ilişkin olarak, hangi amaçlarla hangi tür çerezleri kullandığımız ve bu çerezleri nasıl yönetebileceğiniz konularında sizlere bilgi vermektir. Platform içerisinde, hizmetlerin yerine getirilebilmesi için kullandığımız zorunlu çerezler ile bunlar haricinde kullanıcıların açık rızalarına bağlı Analitik çerezler, Davranışsal çerezler, Sosyal eklenti çerezleri, Yerel depolama türlerinde çerezler yer almaktadır."
+            },
+            {
+                "h": "Çerez Nedir?",
+                "p": "Çerezler, bir İnternet sayfası ziyaret edildiğinde kullanıcılara ilişkin birtakım bilgilerin kullanıcıların terminal cihazlarında depolanmasına izin veren düşük boyutlu zengin metin biçimli text formatlarıdır. Çerezler, bir İnternet sitesini ilk ziyaretiniz sırasında tarayıcınız aracılığıyla cihazınıza depolanabilir ve aynı siteyi aynı cihazla tekrar ziyaret ettiğinizde, tarayıcınız cihazınızda site adına kayıtlı bir çerez olup olmadığını kontrol eder. Eğer kayıt var ise, kaydın içindeki veriyi ziyaret etmekte olduğunuz İnternet sitesine iletir. Bu sayede İnternet sitesi, sizin daha önceki ziyaretinizi tespit eder ve size iletilecek içeriği ona göre belirler."
+            },
+            {
+                "h": "Çerezler Neden Kullanılır?",
+                "p": "Çerezler, İnternet sitesinin daha verimli çalışması ve kullanıcılarının kişisel ihtiyaçlarına daha uygun hizmet sunulması amaçlarıyla kullanılmaktadır. Kullanmakta olduğumuz çerezler, bilgilerin toplanması, İnternet sitemizin işlevselliğini ve performansını artırılması, kullanıcı deneyiminin iyileştirilmesi ve yasal yükümlülüklerin yerine getirilmesi gibi işlevleri yerine getirmektedir. Bunların yanı sıra, kullanmakta olduğumuz çerezler sayesinde:\n\nOturum bilgileriniz korunur ve güvenliğiniz sağlanır.\nSite içi deneyiminiz iyileştirilir ve hızlandırılır.\nTercihleriniz hatırlanarak size özel içerikler sunulur.\nSite kullanımına ilişkin analiz yapılarak hizmet kalitesi artırılır."
+            },
+            {
+                "h": "Kullanılan Çerez Türleri ve Kullanım Amaçları",
+                "p": "Analitik çerezler\nAnalitik çerezler, kullanıcıların davranışlarının analiz edilebilmesi amacıyla istatistiki ölçümler yapılmasına olanak tanıyan çerezlerdir. Bu çerezler, İnternet sitesinin performansının ve sunulan hizmetin kalitesinin artırılması amaçlarıyla kullanılmaktadır.\n\nDavranışsal çerezler\nDavranışsal çerezler, kullanıcıların İnternet sitesindeki faaliyetlerinin izlenmesi, bu faaliyetlerin analiz edilerek profillenmesi ve böylece kullanıcılara daha kişiselleştirilmiş bir deneyim sunulması amaçlarıyla kullanılan çerezlerdir.\n\nSosyal eklenti çerezleri\nSosyal eklenti çerezleri, sosyal medya platformlarının, İnternet sitelerine entegre edilebilmesi amacıyla kullanılan çerezlerdir. Bu çerezler, sosyal medya kullanıcılarının, beğendikleri içerikleri veya yaptıkları yorumları, “arkadaşlarıyla” paylaşmalarına izin veren “sosyal eklenti modülleri” vasıtasıyla çalışmaktadır.\n\nYerel depolama\nYerel depolama, İnternet tarayıcılarında veri saklamak için kullanılan bir teknolojidir. Bu sistem, kullanıcıların tercihlerini hatırlamak, oturum bilgilerini saklamak ve İnternet sitesinin performansını artırmak amaçlarıyla kullanılmaktadır. Çerezlerden farklı olarak, bu veriler otomatik olarak sunucuya gönderilmez."
+            },
+            {
+                "h": "Zorunlu Çerezler",
+                "p": "Zorunlu çerezler, bir İnternet sitesinin çalışması için gerekli olan çerezlerdir. Bu çerezler, kullanıcının talep etmiş olduğu bir bilgi toplama hizmetinin (log-in olma, form doldurma, gizlilik tercihlerinin hatırlanması gibi) yerine getirilebilmesi için zorunlu olarak kullanılmaktadırlar. Pazarlama amacı taşımayan zorunlu çerezlerin engellenmesi halinde, İnternet sitesinin bazı bölümleri çalışmayacağından, İnternet sitesi kendisinden beklenen fonksiyonu yerine getiremeyecektir."
+            },
+            {
+                "h": "Çerez Yönetimi",
+                "p": "Tarayıcı ayarlarınızdan çerez tercihlerinizi istediğiniz zaman değiştirebilirsiniz. Çerezleri tamamen devre dışı bırakabilir veya belirli türdeki çerezlere izin verebilirsiniz. Çoğu tarayıcı, varsayılan olarak çerezleri kabul edecek şekilde ayarlanmıştır, ancak tarayıcınızın ayarlarını değiştirerek çerezleri reddedebilir veya çerez gönderildiğinde uyarı verecek şekilde ayarlayabilirsiniz. Daha fazla bilgi için iamegekaya@gmail.com adresinden bize ulaşabilirsiniz."
+            },
+            {
+                "h": "Tarayıcı Ayarları",
+                "p": "Kullanıcılar çerez yönetim paneli üzerinden, İnternet sitemizde kullanılan çerez çeşitlerini görebilmekte ve Zorunlu Çerezler dışında kalan tüm çerezler için tercihlerini belirleyebilmektedirler. Popüler tarayıcıların çerez ayarlarını değiştirmek için aşağıdaki bağlantıları kullanabilirsiniz:\n\nGoogle Chrome: chrome://settings/cookies\nMozilla Firefox: about:preferences#privacy\nSafari: Tercihler > Gizlilik\nMicrosoft Edge: edge://settings/privacy\nOpera: opera://settings/privacy"
+            },
+            {
+                "h": "Güncellemeler",
+                "p": "Bu Çerez Politikası, gerektiğinde güncellenir. Değişiklikler yayınlandığı anda yürürlüğe girer.\n\nSon güncelleme tarihi: 16 Temmuz 2025"
+            }
+        ]
+    },
+    "TermsOfUse": {
+        "title": "Kullanım Koşulları",
+        "content": [
+            {
+                "h": "Giriş",
+                "p": "Bu Kullanım Koşulları, egekaya.net adresindeki İnternet sitesini kullanırken uymanız gereken kuralları içermektedir. Lütfen İnternet sitesini kullanmaya devam etmeden önce bu koşulları dikkatli bir şekilde okuyunuz."
+            },
+            {
+                "h": "Kapsam ve Değişiklikler",
+                "p": "egekaya.net adresindeki İnternet sitesi, Ege tarafından işletilmektedir. Bu Kullanım Koşulları, İnternet sitesi kullanımı sırasında uygulanacak kuralları ve tarafların hak ve yükümlülüklerini belirlemektedir. İnternet sitesini kullanmaya devam ettiğiniz takdirde bu koşulları kabul ettiğini varsayılacaktır."
+            },
+            {
+                "h": "Hizmet İçeriği ve Kullanım",
+                "p": "Bu İnternet sitesi tarafından sunulan hizmetler, yasal mevzuatlara uygun bir şekilde kullanılmak üzere tasarlanmıştır. Kullanıcılar, İnternet sitesini kullanırken tüm yasa, tüzük ve yönetmelikler ile uluslararası sözleşmelere ve teamüllere uymakla yükümlüdür. Ege, herhangi bir zamanda, herhangi bir nedenle, önceden bildirimde bulunmaksızın hizmetlerini değiştirme, askıya alma veya sonlandırma hakkını saklı tutar."
+            },
+            {
+                "h": "Kullanıcı Yükümlülükleri",
+                "p": "Bu İnternet sitesinin kullanıcıları aşağıda yer alan kurallara uymakla yükümlüdür:\n\n-Yasalara aykırı ve suç teşkil eder nitelikte paylaşımlarda bulunmamak.\n-Üçüncü kişilerin fikri mülkiyet haklarını ihlal eder nitelikte eylemlerde bulunmamak.\n-Kötü amaçlı yazılımları yaymamak veya güvenlik açıklarını istismar etmemek.\n-Sunulan hizmetleri amacına aykırı bir şekilde veya kötüye kullanmamak.\n-Diğer kullanıcıların sunulan hizmetlerden yararlanmalarını engelleyecek nitelikte davranışlarda bulunmamak."
+            },
+            {
+                "h": "Gizlilik Politikası",
+                "p": "Bu İnternet sitesini kullanmaya devam etmekle Gizlilik Politika’mızı kabul etmiş olursunuz. Kişisel verilerinizin nasıl toplandığı, kullanıldığı ve korunduğu hakkında detaylı bilgi için lütfen Gizlilik Politika’mızı inceleyin."
+            },
+            {
+                "h": "Fikri Mülkiyet Hakları",
+                "p": "İnternet sitesinde yer alan tüm içerik, tasarım, logo, yazılım ve sair materyaller, Ege fikri mülkiyet ve telif haklarına haiz olup, fikir ve sanat eserleri kanunu ve sair yasal mevzuatlarca korunmaktadır. Bu içeriklerin izinsiz kullanımı, kopyalanması, çoğaltılması, değiştirilmesi veya dağıtılması yasaktır."
+            },
+            {
+                "h": "Genel Hükümler",
+                "p": "Kullanıcıların tamamı, İnternet sitesini kullanmaya devam etmekle işbu platformu, hukuka ve ahlaka uygun bir şekilde ve yalnızca kişisel amaçlar ile sınırlı olmak üzere kullanacaklarını ve üçüncü kişinin haklarını ihlal eder nitelikte eylemlerde bulunmayacaklarını kabul ve taahhüt ederler.\nKullanıcıların, İnternet sitesi dahilinde yaptıkları işlem ve eylemlerindeki, hukuki ve cezai sorumlulukları kendilerine aittir.\nİnternet sitesinde yer alan bilgilerin doğruluk ve güncelliğini sağlamak için elimizden geleni yapmaktayız. Ancak gösterdiğimiz tüm bu çabaya rağmen bu bilgiler, fiili değişikliklerin gerisinde kalabilir, birtakım farklılıklar olabilir.\nİnternet sitesinde üçüncü şahıslar tarafından işletilen ve içerikleri tarafımızca bilinmeyen diğer İnter sitelerine, uygulamalara ve platformlara köprüler (hyperlink) bulunabilir. Ege, yalnızca bu sitelere ulaşımı sağlamakta olup, içerikleri ile ilgili hiçbir sorumluluk kabul etmemektedir.\nİnternet sitesini virüslerden arındırılmış olarak tutmak konusunda elimizden geleni yapsak da, virüslerin tamamen bulunmadığı garantisini vermemekteyiz. Bu nedenle veri indirirken, virüslere karşı gerekli önlemi almak, kullanıcıların sorumluluğundadır."
+            },
+            {
+                "h": "Sorumluluk Sınırları",
+                "p": "Ege, İnternet sitesinin kullanımından doğabilecek doğrudan, dolaylı, özel veya cezai hiçbir zarardan sorumlu tutulamaz. İnternet sitemiz, “olduğu gibi” sunulmaktadır ve kesintisiz veya hatasız çalışacağına dair herhangi bir garanti verilmemektedir."
+            },
+            {
+                "h": "Uyuşmazlık Çözümü",
+                "p": "Bu İnternet sitesinin kullanımından doğabilecek uyuşmazlıklarda, İstanbul mahkemeleri ve icra daireleri yetkili olacaktır. Bu koşullar, Türkiye kanunlarına göre yorumlanacak ve uygulanacaktır."
+            },
+            {
+                "h": "Son Hükümler",
+                "p": "Bu Kullanım Koşulları, 16 Temmuz 2025 tarihinde yürürlüğe girmiş olup, İnternet sitesini kullanmaya devam ettiğiniz takdirde işbu Kullanım Koşulları’nı kabul ettiğiniz varsayılacaktır. Kullanım Koşulları içerisinde yer alan herhangi bir hükmün geçersiz sayılması, diğer hükümlerin geçerliliğini etkilemez."
+            }
+        ]
+    }
+}

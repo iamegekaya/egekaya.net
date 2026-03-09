@@ -1,0 +1,274 @@
+{
+  "HomePage": {
+    "aiTitle": "If you want to ask AI about me:",
+    "aiLink": "You can visit <link>ai.egekaya.net</link>!",
+    "whoAmI": "Who Am I?",
+    "bio": "To put it briefly, I am someone who takes security seriously but finds fun in the details.",
+    "cvLink": "Review my CV",
+    "checkMenu": "If you wonder what I do, you can check the menus above; if you are on mobile, you can check the menus from the 3 lines at the top right."
+  },
+  "Navigation": {
+    "about": "About",
+    "photography": "Photography",
+    "cybersecurity": "Cybersecurity",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "slogan": "I protect with code, I tell stories with the lens.",
+    "rights": "All rights reserved."
+  },
+  "Common": {
+    "readMore": "Read More",
+    "back": "Back",
+    "viewDetails": "View Details"
+  },
+  "ContactPage": {
+    "getInTouch": "Get in Touch",
+    "reachOut": "Feel free to reach out for collaborations or just to say hi.",
+    "socials": "Socials",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "sent": "Sent!"
+    }
+  },
+  "AboutPage": {
+    "title": "About Me",
+    "intro": "Hello! I'm Ege, 22 years old. I was born on July 11, 2003, in Lüleburgaz, Kırklareli. I am from the last generation that grew up playing ball on the street and clashing cards and pogs. I met my first computer in 2011; since that day, technology has become an inseparable part of my life. My interest in technology deepened with university. Respectively;",
+    "education": [
+      "Lüleburgaz Primary School (2008-2013)",
+      "Lüleburgaz Middle School (2013-2017)",
+      "Lüleburgaz Anatolian High School (2017-2019)",
+      "Lüleburgaz Bahçeşehir Anatolian High School (2019-2021)",
+      "Yeditepe University Preparatory School (2021-2022)",
+      "Yeditepe University (2022-present)"
+    ],
+    "educationSuffix": "I studied/am studying at.",
+    "hobbies": "In my spare time, I like taking photos, editing them in Lightroom, listening to music, and playing games. I am a huge Formula 1 and Fenerbahçe fan. I also love exploring cities and visiting cultural areas like museums and ruins.",
+    "summary": "In short, I love dealing with technology, creating things, and learning something new every day."
+  },
+  "PhotographyPage": {
+    "title": "Photography",
+    "intro": "Yes, if you read the about section, you now know who I am. If you haven't read it, you can go back and read it <link>here</link>. Now I can tell you my story about photography.",
+    "meaningTitle": "What does photography mean to me?",
+    "meaningContent": "Photography is somewhat of an escape from the screen for me. Usually, my day passes in front of the computer. That's why taking my camera, going out, wandering around, and photographing things really does me good. I enjoy transforming the details I see with my eyes into a frame and capturing the moment.",
+    "startTitle": "When did I start?",
+    "startContent": "I bought my first camera, a Canon Rebel T7 and 18-55mm lens, on November 8, 2023. After learning the basics of photography with this camera, I gained experience using 75-300mm and 50mm lenses in addition to the 18-55mm until I bought my new camera. Then I sold everything I had and bought a Sony A7M2 and 28-75mm lens. After using this camera for about 2.5 months, I decided to buy the Fujifilm XM-5, which I own after the Sony A7M2. I am adding the list of equipment I currently have below with links; you can click on them to learn the details:",
+    "equipmentTitle": "My Equipment",
+    "equipment": [
+      {
+        "name": "Fujifilm XM-5 Body",
+        "link": "https://www.fujifilm-x.com/en-us/products/cameras/x-m5/"
+      },
+      {
+        "name": "Fujinon XC 15-45mm f/3.5-5.6 OIS PZ Lens",
+        "link": "https://www.fujifilm-x.com/global/products/lenses/xc15-45mmf35-56-ois-pz/"
+      }
+    ],
+    "galleryTitle": "Photo Gallery"
+  },
+  "CyberPage": {
+    "title": "Cybersecurity",
+    "introTitle": "Hello, I'm Ege.",
+    "introContent": "Cybersecurity is not just an area of interest for me, but a disciplined learning and architectural design process. I focus on understanding systems in depth, detecting vulnerabilities, and building structures based on the \"Zero Trust\" principle.",
+    "osTitle": "Operating System Competencies",
+    "osIntro": "I have gained experience with a wide range of operating systems to analyze different system architectures and behaviors.",
+    "osCurrentTitle": "Actively Used Systems:",
+    "osCurrent": [
+      "Linux: Ubuntu (Server and Client Management)",
+      "macOS: Development and Analysis Environment",
+      "Windows: 11 Pro (Corporate Structure Simulations)"
+    ],
+    "osPastTitle": "Experiences",
+    "osPast": [
+      "Security Focused: Kali Linux, Parrot OS",
+      "Server & Desktop: CentOS, Fedora, Linux Mint, Windows 10 / 7 / Vista"
+    ],
+    "techTitle": "Technical Infrastructure & Architectural Approach",
+    "techIntro": "Beyond standard installations, I manage a Hybrid Architecture that balances performance and security.",
+    "techItems": [
+      {
+        "title": "1. Hybrid Server Management (Docker & Native)",
+        "desc": "Instead of confining all services to a single structure, I use a distribution optimized according to needs:",
+        "list": [
+          "Micro-Services: I run database, automation, and media services in isolated containers on Docker.",
+          "Web Applications: I host my projects like cv.egekaya.net and egekaya.net, where performance is critical, in a native environment with Next.js infrastructure."
+        ]
+      },
+      {
+        "title": "2. Cloudflare Supported Edge Security and Custom Logging",
+        "desc": "I manually manage the DNS configurations (A, CNAME, MX, TXT) and email server security settings (SPF/DMARC) of my sites.",
+        "list": [
+          "Cloudflare Tunnels: I use secure tunneling protocols to open my internal network to the outside world without the risk of opening ports.",
+          "Custom HTTP Traffic Analysis (Custom Logging): Not content with ready-made logging tools, I developed my own monitoring system using Cloudflare Workers.",
+          "How It Works? All requests to my sites are captured at the \"Edge\" point (before returning a response to the client).",
+          "Processing: Captured data (IP, Method, Path, Timestamp) is transmitted to my server via Webhook and archived locally. This way, I can monitor all traffic from a central point."
+        ]
+      },
+      {
+        "title": "3. SecOps and Automation (n8n & AI)",
+        "desc": "I shifted security processes from manual operations to Event-Driven automations.",
+        "list": [
+          "Continuous Discovery and Scanning: The cycle starts automatically every day with Nmap; the system is scanned end-to-end to map open ports and services.",
+          "Automated Vulnerability Analysis: Triggered after Nmap, Nuclei and OWASP ZAP perform in-depth vulnerability scans on detected services.",
+          "AI Supported Reporting: All results are read from the disk, analyzed by artificial intelligence agents, and critical findings are transmitted to me as instant notifications (Telegram/Email)."
+        ]
+      },
+      {
+        "title": "4. Network Security and Access",
+        "list": [
+          "Mesh VPN: I use Tailscale for access to my servers and services. In this way, I can access my systems in an encrypted way from anywhere with internet, as if I were on the local network.",
+          "DNS Filtering: I block ad and tracker traffic network-wide at the DNS level with Pi-hole."
+        ]
+      }
+    ],
+    "experienceTitle": "Experiences:",
+    "experienceList": [
+      {
+        "company": "Aktif Yatırım Bankası A.Ş",
+        "role": "Information Technologies Security Intern",
+        "date": "July 2, 2025 – August 27, 2025"
+      }
+    ],
+    "experienceSummary": "Currently, I am developing active projects on system management, web technologies, and security automations, and increasing my competencies on the Blue Team (Defense) side.",
+    "philosophy": "\"Security is not a product, but a process. I aim to improve this process at every step, from the logging systems I wrote myself to the network topology I established.\""
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "content": [
+      {
+        "h": "Data Controller",
+        "p": "I, Ege, as the data controller, aim to inform you, our users, about which personal data will be processed within the scope of this website, for what purposes, with whom and for what reasons the processed data may be shared, our data processing methods and legal grounds, and what your rights are regarding the processed data, through this privacy and personal data protection policy."
+      },
+      {
+        "h": "Personal Data Collected",
+        "p": "Your personal data collected by this website includes: Device information, Email address, IP address, Name and surname, Phone number, Usage data."
+      },
+      {
+        "h": "Services Used",
+        "p": "Infrastructure services: Cloudflare: Cloudflare is used for site security and performance optimization. It provides DDoS protection, SSL certificate and CDN services."
+      },
+      {
+        "h": "Purposes of Data Processing",
+        "p": "Your personal data is processed by this website for the purposes of providing appropriate services, fulfilling legal obligations, improving service quality, communication, security, and sharing information with legal authorities when necessary. Your personal data will not be used for purposes other than those listed."
+      },
+      {
+        "h": "Data Transfer",
+        "p": "Your personal data collected by this website will not be shared with third parties without your explicit consent, except for legal obligations. However, it may be shared with our service providers, business partners, and legal authorities to the extent necessary for the provision of services and the fulfillment of legal obligations."
+      },
+      {
+        "h": "Use of Cookies",
+        "p": "This website uses cookies. Cookies are small, rich-text formats that allow certain information about users to be stored on users' terminal devices when they visit a website. Cookies can be stored on your device via your browser during your first visit to a website, and when you visit the same site again with the same device, your browser checks whether there is a cookie registered on your device for that site. If there is a record, it transmits the data within the record to the website you are visiting. This allows the website to identify your previous visit and determine the content to be delivered to you accordingly."
+      },
+      {
+        "h": "Your Legal Rights",
+        "p": "Your Rights Under the Personal Data Protection Law (KVKK): In accordance with Article 11 of the KVKK No. 6698, everyone has the right to apply to the data controller and make the following requests regarding themselves: To learn whether their personal data is being processed. To request information regarding the processing of their personal data if it has been processed. To learn the purpose of the processing of their personal data and whether it is being used in accordance with its purpose. To know the third parties to whom their personal data has been transferred, domestically or abroad. To request the correction of their personal data if it has been processed incompletely or incorrectly. To request the deletion or destruction of their personal data within the framework of the conditions stipulated in Article 7 of the KVKK. To request that the actions taken as a result of correction, deletion, and destruction requests be notified to the third parties to whom their personal data has been transferred. To object to a result that is detrimental to them arising from the analysis of processed data exclusively through automated systems. Right to claim compensation for damages incurred as a result of the unlawful processing of personal data."
+      },
+      {
+        "h": "Your Rights Under GDPR",
+        "p": "Under the GDPR (EU General Data Protection Regulation), you have the following rights: The right to access your personal data. The right to request the correction of your personal data. The right to request the deletion of your personal data (right to be forgotten). The right to restrict the processing of personal data. The right to portability of personal data. The right to object to the processing of personal data. Rights relating to automated decision-making and profiling. The right to be informed in the event of a personal data breach."
+      },
+      {
+        "h": "Contact",
+        "p": "To exercise your rights regarding your personal data or to obtain more information about our Privacy Policy, you can contact us at iamegekaya@gmail.com."
+      },
+      {
+        "h": "Consent and Effectiveness",
+        "p": "Sharing your personal data with our website is entirely your choice. If you continue to use our website, you will be deemed to have accepted this Privacy Policy. This policy entered into force on July 16, 2025, and will be updated as necessary."
+      }
+    ]
+  },
+  "CookiePolicy": {
+    "title": "Cookie Policy",
+    "content": [
+      {
+        "h": "Introduction",
+        "p": "The purpose of this text is to inform you about the processing of personal data obtained automatically through the placement of cookies on your device by the website you are visiting, including the types of cookies we use, the purposes for which they are used, and how you can manage them. Within the platform, we use mandatory cookies for the provision of services, as well as analytical cookies, behavioral cookies, social plugin cookies, and local storage cookies, all subject to user explicit consent."
+      },
+      {
+        "h": "What are Cookies?",
+        "p": "Cookies are small, rich-text formats that allow certain information about users to be stored on users' terminal devices when they visit a website. Cookies can be stored on your device via your browser during your first visit to a website, and when you visit the same site again with the same device, your browser checks whether there is a cookie registered on your device for that site. If there is a record, it transmits the data within the record to the website you are visiting. In this way, the website identifies your previous visit and determines the content to be delivered to you accordingly."
+      },
+      {
+        "h": "Why are Cookies Used?",
+        "p": "Cookies are used to make the website work more efficiently and to provide services more tailored to the personal needs of its users. The cookies we use perform functions such as collecting information, improving the functionality and performance of our website, improving user experience, and fulfilling legal obligations. In addition, thanks to the cookies we use: Your session information is protected and your security is ensured. Your on-site experience is improved and accelerated. Your preferences are remembered and personalized content is provided to you. Service quality is improved by analyzing site usage."
+      },
+      {
+        "h": "Analytical cookies",
+        "p": "Analytical cookies are cookies that allow statistical measurements to be made in order to analyze user behavior. These cookies are used to improve the performance of the website and the quality of the service provided."
+      },
+      {
+        "h": "Behavioral cookies",
+        "p": "Behavioral cookies are cookies used to monitor users' activities on the website, analyze and profile these activities, and thus provide users with a more personalized experience."
+      },
+      {
+        "h": "Social Plugin Cookies",
+        "p": "Social plugin cookies are cookies used to integrate social media platforms into websites. These cookies work through \"social plugin modules\" that allow social media users to share content they like or comments they make with their \"friends\"."
+      },
+      {
+        "h": "Local Storage",
+        "p": "Local storage is a technology used to store data in internet browsers. This system is used to remember user preferences, store session information, and improve website performance. Unlike cookies, this data is not automatically sent to the server."
+      },
+      {
+        "h": "Mandatory Cookies",
+        "p": "Mandatory cookies are cookies necessary for the operation of a website. These cookies are necessarily used to fulfill a user-requested information collection service (such as logging in, filling out forms, remembering privacy preferences). If mandatory cookies, which are not for marketing purposes, are blocked, some parts of the website will not work, and the website will not be able to perform its intended function."
+      },
+      {
+        "h": "Cookie Management",
+        "p": "You can change your cookie preferences at any time through your browser settings. You can disable cookies entirely or allow specific types of cookies. Most browsers are set to accept cookies by default, but you can reject cookies or set your browser to warn you when a cookie is sent by changing your browser settings. For more information, you can contact us at iamegekaya@gmail.com."
+      },
+      {
+        "h": "Browser Settings",
+        "p": "Users can view the types of cookies used on our website and set their preferences for all cookies except Mandatory Cookies through the cookie management panel. You can use the following links to change the cookie settings of popular browsers: Google Chrome: chrome://settings/cookies Mozilla Firefox: about:preferences#privacy Safari: Preferences > Privacy Microsoft Edge: edge://settings/privacy Opera: opera://settings/privacy"
+      },
+      {
+        "h": "Updates",
+        "p": "This Cookie Policy will be updated as needed. Changes will take effect as soon as they are published. Last updated: July 16, 2025"
+      }
+    ]
+  },
+  "TermsOfUse": {
+    "title": "Terms of Use",
+    "content": [
+      {
+        "h": "Scope and Amendments",
+        "p": "The egekaya.net website is operated by Ege. These Terms of Use define the rules to be applied during the use of the website and the rights and obligations of the parties. If you continue to use the website, it will be assumed that you accept these terms."
+      },
+      {
+        "h": "Service Content and Use",
+        "p": "The services offered by this website are designed to be used in accordance with legal regulations. Users are obliged to comply with all laws, statutes, regulations, international conventions and customs when using the website. Ege reserves the right to change, suspend or terminate its services at any time, for any reason, without prior notice."
+      },
+      {
+        "h": "User Obligations",
+        "p": "Users of this website are obliged to comply with the following rules: Not to make posts that are illegal or constitute a crime. Not to engage in actions that infringe the intellectual property rights of third parties. Not to disseminate malicious software or exploit security vulnerabilities. Not to misuse or abuse the services offered. Not to engage in behavior that prevents other users from benefiting from the services offered."
+      },
+      {
+        "h": "Privacy Policy",
+        "p": "By continuing to use this website, you agree to our Privacy Policy. For detailed information on how your personal data is collected, used, and protected, please review our Privacy Policy."
+      },
+      {
+        "h": "Intellectual Property Rights",
+        "p": "All content, design, logos, software, and other materials on this website are owned by Ege Intellectual Property and Copyright and are protected by the Law on Intellectual and Artistic Works and other relevant legislation. Unauthorized use, copying, reproduction, modification, or distribution of this content is prohibited."
+      },
+      {
+        "h": "General Terms",
+        "p": "By continuing to use the website, all users agree and undertake that they will use this platform in a lawful and ethical manner, limited only to personal purposes, and will not engage in actions that infringe upon the rights of third parties. Users are solely responsible for the legal and criminal liabilities arising from their transactions and actions within the website. We do our best to ensure the accuracy and timeliness of the information on the website. However, despite all our efforts, this information may lag behind actual changes and may have some discrepancies. The website may contain hyperlinks to other websites, applications, and platforms operated by third parties whose content is unknown to us. Ege only provides access to these sites and accepts no responsibility for their content. While we do our best to keep the website free from viruses, we do not guarantee that it is completely virus-free. Therefore, it is the users' responsibility to take necessary precautions against viruses when downloading data."
+      },
+      {
+        "h": "Limitations of Liability",
+        "p": "Ege cannot be held liable for any direct, indirect, special, or punitive damages arising from the use of this website. Our website is provided \"as is,\" and no guarantee is given that it will operate without interruption or errors."
+      },
+      {
+        "h": "Dispute Resolution",
+        "p": "In disputes arising from the use of this website, the courts and enforcement offices of Istanbul shall have jurisdiction. These terms shall be construed and applied in accordance with the laws of Turkey."
+      },
+      {
+        "h": "Final Provisions",
+        "p": "These Terms of Use entered into force on July 16, 2025, and by continuing to use the website, you shall be deemed to have accepted these Terms of Use. The invalidity of any provision in these Terms of Use shall not affect the validity of the other provisions."
+      }
+    ]
+  }
+}
