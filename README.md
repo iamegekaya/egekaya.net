@@ -26,7 +26,7 @@ Current verified capabilities in this repository:
 
 ```text
 egekaya.net/
-├── docs/                     # Repository notes and audit snapshots
+├── docs/                     # Project notes
 ├── public/                   # Static assets, profile image, portfolio photos
 ├── src/
 │   ├── app/                  # App Router pages, layouts, and API routes
@@ -43,8 +43,6 @@ egekaya.net/
 └── README.md
 ```
 
-The `docs/` directory currently contains repository review and audit notes rather than end-user product documentation.
-
 ## Prerequisites
 
 - Node.js
@@ -60,7 +58,7 @@ npm install
 
 ## Environment Variables
 
-Create a local `.env.local` file for server-side email delivery. Do not commit it.
+Create a local `.env.local` file for server-side email delivery.
 
 | Variable | Purpose |
 | --- | --- |
@@ -131,9 +129,3 @@ This repository exposes the standard Next.js build and start workflow. No platfo
 - The contact flow is implemented in `src/components/ContactForm.tsx` and `src/app/api/contact/route.ts`.
 - The contact route validates input and applies basic anti-abuse checks before sending mail.
 - Public assets are stored in `public/`, including the profile image and photography gallery files.
-
-## Public Repository Notes
-
-- Do not commit `.env.local` or any other environment file with real credentials.
-- Avoid copying personal contact details, infrastructure descriptions, or audit-only notes from the content files into public-facing setup documentation unless you intend them to be public.
-- The repository contains large image assets in `public/images/portfolio/`; review them intentionally before publishing if repository size matters.
