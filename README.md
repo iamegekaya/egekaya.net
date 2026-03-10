@@ -1,80 +1,40 @@
 # egekaya.net
 
+Source code for a bilingual personal website built with Next.js. The site presents profile content in English and Turkish, includes a photography gallery, and provides a contact form backed by a server-side API route.
+
 ## Overview
 
-This repository contains the source code for **egekaya.net**, a personal website built with **Next.js** using the **App Router**.
+Current verified capabilities in this repository:
 
-Based on the current codebase, the site includes:
-
-- A localized homepage
-- About, photography, cybersecurity, and contact pages
-- Privacy Policy, Cookie Policy, and Terms of Use pages
-- A photography gallery powered by static image assets
-- A contact form backed by a server-side API route
-
-The application is structured under `src/` and uses locale-prefixed routes managed by `next-intl`.
-
-## Features
-
-- Built with the Next.js App Router
-- TypeScript-based codebase
-- English and Turkish localization with locale-specific pathnames
-- Shared site configuration for navigation and footer links
-- Static photography gallery using `next/image`
-- Contact form with request validation and email delivery via a Next.js route handler
-- Global metadata configuration for title, description, Open Graph, Twitter card, and favicon
+- Locale-prefixed routes for Turkish and English content
+- About, photography, cybersecurity, contact, and legal pages
+- A static image gallery served from `public/images/portfolio/`
+- Shared metadata, navigation, and footer configuration
+- A contact form that posts to `/api/contact`
 
 ## Tech Stack
 
-- **Framework:** Next.js `16`
-- **UI:** React `19`
-- **Language:** TypeScript `5`
-- **Styling:** Tailwind CSS `4`, `@tailwindcss/typography`
-- **Internationalization:** `next-intl`
-- **Animation:** `framer-motion`
-- **Icons:** `lucide-react`
-- **Validation:** `zod`
-- **Email:** `nodemailer`
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- `next-intl` for localization
+- `framer-motion` for gallery and navigation animation
+- `zod` and `nodemailer` for contact form handling
 
 ## Project Structure
 
 ```text
 egekaya.net/
-├── public/
-│   ├── images/portfolio/
-│   ├── file.svg
-│   ├── globe.svg
-│   ├── next.svg
-│   ├── pp.jpg
-│   ├── vercel.svg
-│   └── window.svg
+├── docs/                     # Repository notes and audit snapshots
+├── public/                   # Static assets, profile image, portfolio photos
 ├── src/
-│   ├── app/
-│   │   ├── api/
-│   │   │   └── contact/
-│   │   │       └── route.ts
-│   │   ├── [locale]/
-│   │   │   ├── about/page.tsx
-│   │   │   ├── contact/page.tsx
-│   │   │   ├── cookie-policy/page.tsx
-│   │   │   ├── cybersecurity/page.tsx
-│   │   │   ├── layout.tsx
-│   │   │   ├── page.tsx
-│   │   │   ├── photography/page.tsx
-│   │   │   ├── privacy-policy/page.tsx
-│   │   │   └── terms-of-use/page.tsx
-│   │   ├── favicon.ico
-│   │   └── globals.css
-│   ├── components/
-│   ├── config/
-│   │   └── site.ts
-│   ├── i18n/
-│   │   ├── request.ts
-│   │   └── routing.ts
-│   ├── messages/
-│   │   ├── en.json
-│   │   └── tr.json
-│   └── middleware.ts
+│   ├── app/                  # App Router pages, layouts, and API routes
+│   ├── components/           # Reusable UI components
+│   ├── config/               # Shared site metadata and navigation config
+│   ├── i18n/                 # Locale routing and message loading
+│   ├── messages/             # English and Turkish content
+│   └── proxy.ts              # Locale-aware request proxy/matcher
 ├── eslint.config.mjs
 ├── next.config.ts
 ├── package.json
@@ -83,169 +43,97 @@ egekaya.net/
 └── README.md
 ```
 
-## Getting Started
+The `docs/` directory currently contains repository review and audit notes rather than end-user product documentation.
 
-### Prerequisites
+## Prerequisites
 
 - Node.js
 - npm
 
-`Verify before publishing:` the repository does not define an `engines` field in `package.json`, so the minimum supported Node.js version is not explicitly pinned.
+This repository does not define an `engines` field, so it does not pin an exact Node.js version. A current LTS release is the safest choice for local development.
 
-### Installation
+## Installation
 
 ```bash
 npm install
 ```
 
-### Environment Variables
+## Environment Variables
 
-The contact API route in `src/app/api/contact/route.ts` reads the following server-side environment variables.
+Create a local `.env.local` file for server-side email delivery. Do not commit it.
 
-Create a local `.env.local` file with:
+| Variable | Purpose |
+| --- | --- |
+| `GMAIL_USER` | Gmail address used by the contact route as the sender and recipient mailbox |
+| `GMAIL_APP_PASSWORD` | Gmail app password used by the contact route for mail authentication |
+
+Example placeholders:
 
 ```bash
-GMAIL_USER=your-address@gmail.com
+GMAIL_USER=your-address@example.com
 GMAIL_APP_PASSWORD=your-app-password
 ```
 
-`TODO:` add a committed `.env.example` or `.env.local.example` file before publishing publicly.
+If these variables are missing, the contact form UI can render, but the `/api/contact` request will not be able to send email successfully.
 
-If you do not want to enable email sending locally, verify the contact form behavior before testing the `/api/contact` route.
-
-### Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev
 npm run build
 npm run start
 npm run lint
+npm run typecheck
 ```
 
-Script details:
-
-- `npm run dev` starts the development server
+- `npm run dev` starts the local development server
 - `npm run build` creates the production build
-- `npm run start` runs the production server
+- `npm run start` serves the built application
 - `npm run lint` runs ESLint
+- `npm run typecheck` runs the TypeScript compiler without emitting files
 
-## Development
+There is currently no `test` script in `package.json`.
 
-Start the local development server:
+## Local Development
+
+Start the development server:
 
 ```bash
 npm run dev
 ```
 
-Then open:
+Then open [http://localhost:3000](http://localhost:3000).
 
-```text
-http://localhost:3000
-```
+The app uses locale-prefixed routing. Verified examples from `src/i18n/routing.ts` include:
 
-The project uses locale-prefixed routing. Based on `src/i18n/routing.ts`, examples include:
-
-- `/en`
 - `/tr`
-- `/en/about`
+- `/en`
 - `/tr/hakkimda`
-- `/en/contact`
+- `/en/about`
 - `/tr/iletisim`
+- `/en/contact`
 
-## Production Build
+## Build and Start
 
-Build and serve the application locally:
+For a local production check:
 
 ```bash
 npm run build
 npm run start
 ```
 
-This repository includes the standard Next.js production flow, but it does not document a specific hosting platform.
+This repository exposes the standard Next.js build and start workflow. No platform-specific deployment configuration is documented here.
 
-## Deployment Notes
+## Implementation Notes
 
-- A standard Next.js `build` and `start` workflow is present.
-- The contact form depends on server-side environment variables being available in the deployment environment.
-- `Verify before publishing:` the repository does not document a deployment target, infrastructure, or hosting provider.
-- `Verify before publishing:` the contact API route uses `nodemailer`, so confirm that your target runtime supports the required Node.js server environment.
+- Localized content lives in `src/messages/en.json` and `src/messages/tr.json`.
+- Locale handling is wired through `src/i18n/routing.ts`, `src/i18n/request.ts`, and `src/proxy.ts`.
+- The contact flow is implemented in `src/components/ContactForm.tsx` and `src/app/api/contact/route.ts`.
+- The contact route validates input and applies basic anti-abuse checks before sending mail.
+- Public assets are stored in `public/`, including the profile image and photography gallery files.
 
-## Internationalization / Content Structure
+## Public Repository Notes
 
-Internationalization is implemented with `next-intl`.
-
-Relevant files:
-
-- `src/i18n/routing.ts` defines the locales and localized pathnames
-- `src/i18n/request.ts` loads locale message files
-- `src/middleware.ts` enables locale-aware routing
-- `src/messages/en.json` stores English content
-- `src/messages/tr.json` stores Turkish content
-
-Current verified locale setup:
-
-- Locales: `en`, `tr`
-- Default locale: `tr`
-- Locale prefix mode: `always`
-
-## Contact Form / API Notes
-
-The contact flow is split between UI components and an API route:
-
-- UI page: `src/app/[locale]/contact/page.tsx`
-- Form component: `src/components/ContactForm.tsx`
-- API route: `src/app/api/contact/route.ts`
-
-Verified implementation details:
-
-- The form submits `name`, `email`, and `message`
-- The API route validates input with `zod`
-- Email delivery is handled through `nodemailer`
-- The transport is configured with the Gmail service and environment variables
-
-`Verify before publishing:` no rate limiting, CAPTCHA, or other abuse-prevention layer is visible in the repository.
-
-## Assets / Public Files
-
-Public assets are stored under `public/`.
-
-Notable assets found in the repository:
-
-- `public/pp.jpg` for the profile image
-- `public/images/portfolio/*.JPG` for the photography gallery
-- `public/*.svg` icon and placeholder assets
-- `src/app/favicon.ico` for the site favicon
-
-`Verify before publishing:` the portfolio gallery currently uses large JPEG source files. Consider optimizing image size and format if performance is a priority.
-
-## SEO / Metadata Notes
-
-Global metadata is defined in `src/app/[locale]/layout.tsx`.
-
-Verified metadata fields include:
-
-- Title template
-- Default title
-- Description
-- Open Graph fields
-- Twitter card fields
-- Favicon
-
-`Verify before publishing:` the metadata currently references `/og-image.jpg`, but that file was not found in the repository.
-
-`Verify before publishing:` Open Graph locale handling appears to be statically configured in code rather than derived per locale.
-
-## Known Issues / Notes
-
-- No automated test suite is present in the repository.
-- No CI configuration was found in the repository.
-- The current repository includes `next-sitemap` in `package.json`, but no sitemap configuration file was found. Verify whether sitemap generation is intended.
-- A root-level `pp.jpg` file also exists in addition to `public/pp.jpg`. Verify whether both copies are necessary.
-- The locale middleware matcher currently targets `/` and locale-prefixed paths. Verify locale-less deep-link behavior before publishing if redirects for paths like `/about` are expected.
-- Policy page content is stored in translation JSON files. Review legal content carefully before public release.
-
-## License
-
-No license file is currently included in the repository.
-
-`TODO:` add a `LICENSE` file before publishing the repository publicly.
+- Do not commit `.env.local` or any other environment file with real credentials.
+- Avoid copying personal contact details, infrastructure descriptions, or audit-only notes from the content files into public-facing setup documentation unless you intend them to be public.
+- The repository contains large image assets in `public/images/portfolio/`; review them intentionally before publishing if repository size matters.

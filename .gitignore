@@ -8,38 +8,52 @@
 !/.yarn/releases
 !/.yarn/versions
 
-# Test coverage
-/coverage/
-
-# Next.js build output
+# Next.js and build output
 /.next/
 /out/
-
-# Production output
 /build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage and caches
+/coverage/
+/.turbo/
+/.cache/
+.eslintcache
 
 # Local environment files
 .env
+.env.local
 .env.*
 !.env.example
 !.env*.example
+.envrc
+/.direnv/
 
 # Deployment tooling
 /.vercel/
 
 # Logs
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 .pnpm-debug.log*
 
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
-
-# OS-generated files
+# Editors and OS-generated files
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*.tmp
+*.temp
 
 # Local certificates and keys
 *.pem
+*.key
+*.crt
+*.cer
